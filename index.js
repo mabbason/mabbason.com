@@ -2,6 +2,6 @@ const express = require('express');
 const app = express();
 const PORT = 3013;
 
-app.get('/', express.static('public'));
+app.use(express.static('public'));
 
 app.listen(PORT, () => console.log(`Server listening on port: ${PORT}`));
