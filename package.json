@@ -1,0 +1,23 @@
+{
+  "name": "mabbason.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mabbason/mabbason.com.git"
+  },
+  "keywords": [],
+  "author": "Miles Abbason",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mabbason/mabbason.com/issues"
+  },
+  "homepage": "https://github.com/mabbason/mabbason.com#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
