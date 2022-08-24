@@ -1854,6 +1854,22 @@ input, select, textarea {
 		border-color: #d5d5d5;
 	}
 
+  /* Seymour Assets */
+  #seymour-logo {
+    width: 85%;
+    margin-bottom: 1.5rem;
+  }
+  
+  #seymour-deploy {
+    position: absolute;
+    z-index: 5;
+    width: 30%;
+    -webkit-filter: drop-shadow(7px 7px 7px #222);
+    filter: drop-shadow(7px 7px 7px #222);
+    margin-top: 16%;
+    padding-right: 2%;
+  }
+
 /* Button */
 
 	input[type="submit"],
@@ -3668,6 +3684,7 @@ input, select, textarea {
 					position: relative;
 					width: 50%;
 					border-radius: 0;
+          background-color: #0c266b;
 				}
 
 					#wrapper > .main.spotlight .image img {
@@ -3691,6 +3708,7 @@ input, select, textarea {
 
 					#wrapper > .main.spotlight .content p {
 						margin-bottom: 1.25rem;
+            color:rgba(255, 255, 255, 0.75);
 					}
 
 				#wrapper > .main.spotlight.right {
@@ -3722,7 +3740,7 @@ input, select, textarea {
 
 			#wrapper > .main.invert {
 				background-color: #454545;
-				color: rgba(255, 255, 255, 0.75);
+				color: #0c266b;
 			}
 
 				#wrapper > .main.invert button, #wrapper > .main.invert input, #wrapper > .main.invert select, #wrapper > .main.invert textarea {
@@ -3957,11 +3975,11 @@ input, select, textarea {
 				}
 
 				#wrapper > .main.invert .slider-wrapper .indicators a.active:before {
-					background-color: #ffffff;
+					background-color: #0c266b;
 				}
 
 			#wrapper > .main.accent1 {
-				background-color: #ffffff;
+				background-color: #0c266b;
 				/* background-image: linear-gradient(90deg, #f0bd23, #6bc378); */
 			}
 
@@ -3990,6 +4008,16 @@ input, select, textarea {
 			max-width: calc(100% - 4rem);
 		}
 
+    #seymour-deploy {
+      position: absolute;
+      z-index: 5;
+      width: 40%;
+      -webkit-filter: drop-shadow(7px 7px 7px #222);
+      filter: drop-shadow(7px 7px 7px #222);
+      margin-top: 18%;
+      padding-left: 2%;
+    }
+
 	}
 
 	@media screen and (max-width: 980px) {
@@ -3998,6 +4026,15 @@ input, select, textarea {
 			padding: 4rem 3rem 2rem 3rem ;
 		}
 
+    #seymour-deploy {
+      position: absolute;
+      z-index: 5;
+      width: 75%;
+      -webkit-filter: drop-shadow(7px 7px 7px #222);
+      filter: drop-shadow(7px 7px 7px #222);
+      margin-top: 30%;
+      padding-left: 10%;
+    }
 	}
 
 	@media screen and (max-width: 736px) {
@@ -4029,6 +4066,15 @@ input, select, textarea {
 					padding: 3rem 2rem 1rem 2rem ;
 				}
 
+        #seymour-deploy {
+          position: absolute;
+          z-index: 5;
+          width: 75%;
+          -webkit-filter: drop-shadow(7px 7px 7px #222);
+          filter: drop-shadow(7px 7px 7px #222);
+          margin-top: 30%;
+          padding-left: 10%;
+        }
 	}
 
 	@media screen and (max-width: 480px) {
@@ -4057,6 +4103,15 @@ input, select, textarea {
 				text-align: center;
 			}
 
+    #seymour-deploy {
+      position: absolute;
+      z-index: 5;
+      width: 75%;
+      -webkit-filter: drop-shadow(7px 7px 7px #222);
+      filter: drop-shadow(7px 7px 7px #222);
+      margin-top: 30%;
+      padding-left: 10%;
+    }
 	}
 
 	@media screen and (max-width: 360px) {
@@ -4089,6 +4144,15 @@ input, select, textarea {
 					padding: 2.5rem 1.5rem 0.5rem 1.5rem ;
 				}
 
+        #seymour-deploy {
+          position: absolute;
+          z-index: 5;
+          width: 75%;
+          -webkit-filter: drop-shadow(7px 7px 7px #222);
+          filter: drop-shadow(7px 7px 7px #222);
+          margin-top: 30%;
+          padding-left: 10%;
+        }
 	}
 
 /* Header */
@@ -4566,18 +4630,3 @@ input, select, textarea {
 				}
 
 		}
-
-#seymour-logo {
-  width: 85%;
-  margin-bottom: 1.5rem;
-}
-
-#seymour-deploy {
-  position: absolute;
-  z-index: 5;
-  width: 30%;
-  -webkit-filter: drop-shadow(7px 7px 7px #222);
-  filter: drop-shadow(7px 7px 7px #222);
-  margin-top: 15%;
-  padding-right: 2%;
-}
