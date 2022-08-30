@@ -174,7 +174,7 @@ input, select, textarea {
 
 	a {
 		text-decoration: none;
-		border-bottom: dotted 1px;
+		border-bottom: solid 1px;
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
@@ -1880,6 +1880,10 @@ input, select, textarea {
   }
 
   #architecture p {
+    margin-top: 0.75rem;
+  }
+
+  #about-me a {
     margin-top: 0.75rem;
   }
 
@@ -4079,6 +4083,10 @@ input, select, textarea {
 					padding: 3rem 2rem 1rem 2rem ;
 				}
 
+        #wrapper > .main.spotlight .image.family {
+          display: none;
+        }
+
         #seymour-deploy {
           position: absolute;
           z-index: 5;
@@ -4107,13 +4115,17 @@ input, select, textarea {
 				width: 100%;
 			}
 
+      #wrapper > .main.spotlight .image.family {
+        display: none;
+			}
+
 				#wrapper > .main.spotlight .image img {
 					position: relative;
 				}
 
 			#wrapper > .main.spotlight .content {
 				width: 100%;
-				text-align: center;
+				text-align: left;
 			}
 
     #seymour-deploy {
@@ -4642,4 +4654,16 @@ input, select, textarea {
 					margin-bottom: 0;
 				}
 
+		}
+
+    @media screen and (max-width: 1280px) {
+      
+      #about-me img {
+        position: absolute;
+        width: 0%
+      }
+
+      #about-me .content {
+        width: 100%;
+      }
 		}
